@@ -8,18 +8,18 @@
 <body>
     <button onclick="
         const randomNumber = Math.random();
-        let result;
+        let Result;
 
         if (randomNumber < 0.5) {
-            result = 'heads';
+            Result = 'heads';
         } else {
-            result = 'tails';
+            Result = 'tails';
         }
 
         const guess = prompt('Enter your guess (heads or tails):');
         let outcome;
 
-        if (guess === result) {
+        if (guess === Result) {
             outcome = 'You win!';
         } else {
             outcome = 'You lose!';
